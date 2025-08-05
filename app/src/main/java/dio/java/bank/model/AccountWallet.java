@@ -2,6 +2,9 @@ package dio.java.bank.model;
 
 import java.util.List;
 
+import lombok.Getter;
+
+@Getter
 public class AccountWallet extends Wallet {
     private final List<String> pix;
     public AccountWallet(final List<String> pix) {
